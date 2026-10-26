@@ -11,10 +11,6 @@ models:
   holiday_lettings:
     staging:
       +materialized: view
-    intermediate:
-      +materialized: view
     marts:
-      # Written to output/<model>.parquet (external_root in profiles.yml), plus a CSV copy.
       +materialized: external
       +format: parquet
-      +post-hook: "copy (select * from {{ this }}) to 'output/{{ this.name }}.csv' (header, delimiter ',')"

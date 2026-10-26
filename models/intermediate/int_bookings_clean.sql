@@ -1,2 +1,0 @@
--- Intermediate: impute check_in / rate / total using total = rate x nights; compute nights; add dq flags.
--- See PLAN.md > int_bookings_clean for the order of operations.

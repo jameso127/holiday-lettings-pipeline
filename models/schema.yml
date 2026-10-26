@@ -12,14 +12,11 @@ models:
               arguments:
                 values: [completed, cancelled, pending]
 
-  - name: int_bookings_clean
-    description: Bookings with rate, total and check-in imputed where derivable (total = rate x nights). Imputed values are flagged.
-    columns:
-      - name: booking_id
-        data_tests: [unique, not_null]
-
   - name: bookings_clean
-    description: Final clean dataset. Exported to output/bookings_clean.{parquet,csv}.
+    description: >
+      Final clean dataset, one row per booking. Missing check-in, rate or total are derived from
+      total = daily rate x nights where the other two values are known; otherwise left NULL.
+      Exported to output/bookings_clean.parquet.
     columns:
       - name: booking_id
         data_tests: [unique, not_null]
@@ -32,9 +29,21 @@ models:
           - accepted_values:
               arguments:
                 values: [completed, cancelled, pending]
+      - name: nights
+        description: Length of stay in days (check_out_date - check_in_date). NULL when check-in cannot be derived.
+      - name: is_check_in_imputed
+        description: check_in_date derived as check_out_date - (total_booking_value / daily_rate_usd).
+      - name: is_rate_imputed
+        description: daily_rate_usd derived as total_booking_value / nights.
+      - name: is_total_imputed
+        description: total_booking_value derived as daily_rate_usd x nights.
 
   - name: property_summary
-    description: One row per property. Revenue counts completed bookings only. Exported to output/property_summary.{parquet,csv}.
+    description: One row per property. Exported to output/property_summary.parquet.
     columns:
       - name: property_name
         data_tests: [unique, not_null]
+      - name: total_revenue_usd
+        description: Sum of booking value for completed bookings only.
+      - name: avg_length_of_stay_days
+        description: Average nights across all bookings with a known length of stay.

@@ -4,17 +4,18 @@ dbt + DuckDB pipeline that cleans legacy booking records and summarises them per
 
 ## Run
 
+Requires [uv](https://docs.astral.sh/uv/).
+
 ```
-python -m venv .venv
-.venv\Scripts\activate            # macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-dbt build --profiles-dir .
-sqlfluff lint models/
+uv sync                                        # create .venv from uv.lock
+uv run dbt build --profiles-dir .              # build models + run tests
+uv run sqlfluff lint models/ tests/            # lint SQL
+uv run duckdb -cmd "ATTACH 'holiday_lettings.duckdb' AS lettings (READ_ONLY)" -ui   # browser UI; close before dbt build
 ```
 
 Outputs are written to `output/`:
-- `bookings_clean.parquet` / `.csv`: the cleaned dataset
-- `property_summary.parquet` / `.csv`: the summary per property
+- `bookings_clean.parquet`: the cleaned dataset
+- `property_summary.parquet`: the summary per property
 
 ## Pipeline
 

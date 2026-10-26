@@ -1,6 +1,6 @@
 # Plan: Holiday Lettings Booking Pipeline
 
-Timebox: 90 minutes. Stack: dbt-core + dbt-duckdb, local DuckDB file, outputs to Parquet/CSV.
+Timebox: 90 minutes. Stack: dbt-core + dbt-duckdb, local DuckDB file, outputs to Parquet.
 
 ## Goal
 
@@ -38,38 +38,37 @@ Key findings:
 
 ```
 models/
-  staging/stg_bookings.sql             -- trim, normalise status, parse dates, strip currency, cast
-  intermediate/int_bookings_clean.sql  -- impute rate / total / check_in, nights, dq flags
-  marts/bookings_clean.sql             -- final clean dataset (external: parquet + csv)
-  marts/property_summary.sql           -- summary table (external: parquet + csv)
-  schema.yml                           -- sources, docs, tests
+  staging/stg_bookings.sql     -- trim guest name, lowercase status, parse dates, strip currency, cast
+  marts/bookings_clean.sql     -- impute check_in / rate / total, nights, flags (external: parquet)
+  marts/property_summary.sql   -- summary table (external: parquet)
+  schema.yml                   -- docs, tests
 ```
+No intermediate layer: with a single source it would only be a pass-through.
 
 ### stg_bookings
-- `trim()` all strings. Status becomes lowercase (`completed` / `cancelled` / `pending`).
-- Dates: `CASE WHEN x LIKE '%/%'` → `STRPTIME(x, '%d/%m/%Y')`, else `STRPTIME(x, '%Y-%m-%d')`, cast to DATE.
-- Money: `REPLACE(TRIM(x), '$', '')` then `CAST(... AS DECIMAL(10, 2))`.
+- Only the cleaning the data needs: `TRIM(guest_name)` (the only padded text column), `LOWER(status)`.
+- Dates: `STRPTIME(x, ['%d/%m/%Y', '%Y-%m-%d'])` tries each format, then cast to DATE.
+- Money: `REPLACE(x, '$', '')` then `CAST(... AS DECIMAL(10, 2))` (the cast tolerates padding).
 - Casts are **strict** (not `TRY_`): an unseen format fails the build loudly rather than silently becoming NULL.
-- Empty strings become NULL.
+- No `NULLIF`: DuckDB already reads empty CSV fields as NULL.
 
-### int_bookings_clean
+### bookings_clean
 Apply in this order, and record each derivation in a flag column:
 1. `check_in_date` missing and rate and total present: `check_out - (total / rate)` days.
 2. `nights = check_out - check_in`.
 3. `daily_rate_usd` missing: `total / nights`.
 4. `total_booking_value` missing: `rate × nights`.
-5. Flags: `is_check_in_imputed`, `is_rate_imputed`, `is_total_imputed`, `is_stay_unknown`.
+5. Flags: `is_check_in_imputed`, `is_rate_imputed`, `is_total_imputed`. Unknown stay is just `nights IS NULL`.
 
 ### property_summary (one row per property)
-- `total_revenue`: sum of `total_booking_value` where status = completed.
-- `gross_booked_value`: sum across all statuses, kept for transparency.
-- `avg_length_of_stay_days`: avg(nights), NULLs excluded.
+- `total_revenue_usd`: sum of `total_booking_value` where status = completed.
+- `avg_length_of_stay_days`: avg(nights) across all statuses (booked length), NULLs excluded.
 - `completed_bookings`, `cancelled_bookings`, `pending_bookings`, `total_bookings`.
 
 ## Assumptions (to be repeated in README)
 
-1. Revenue counts **completed** bookings only. Cancelled bookings are assumed to be not charged.
-2. **Pending** is kept as its own status and reported separately, not merged or dropped.
+1. Revenue counts **completed** bookings only (realised revenue). Cancelled bookings are assumed not charged; pending ones are not yet earned.
+2. **Pending** is kept as its own status and reported separately, not merged or dropped. All bookings are from 2023, so every pending stay is in the past: most likely a status never updated in the legacy system. Flagged as a data-quality issue rather than guessed.
 3. Slash dates are dd/mm/yyyy, based on the evidence above.
 4. Currency is USD throughout (`$` prefix and the column name agree).
 5. Rows whose stay length cannot be derived are kept with NULL nights and flagged, and are excluded from the average. They are not dropped and not guessed.
@@ -88,7 +87,7 @@ Apply in this order, and record each derivation in a flag column:
 
 - [ ] `requirements.txt` (`dbt-duckdb`), `profiles.yml` in repo, `dbt_project.yml`
 - [ ] Models + tests passing with `dbt build`
-- [ ] `output/bookings_clean.{parquet,csv}`, `output/property_summary.{parquet,csv}`
+- [ ] `output/bookings_clean.parquet`, `output/property_summary.parquet`
 - [ ] README: how to run, assumptions, AI usage and how outputs were verified
 - [ ] Spot-check: manually verify the summary for one property against the raw file
 
