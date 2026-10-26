@@ -2,10 +2,7 @@ version: 2
 
 sources:
   - name: raw
-    description: Raw booking exports compiled from multiple legacy systems.
     meta:
-      # All columns read as varchar; casting happens in stg_bookings.
       external_location: "read_csv('data/raw/{name}.csv', all_varchar=true, header=true)"
     tables:
       - name: holiday_lettings
-        description: One row per booking. Mixed date formats, mixed-case status, currency-formatted totals.

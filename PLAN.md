@@ -47,8 +47,9 @@ models/
 
 ### stg_bookings
 - `trim()` all strings. Status becomes lowercase (`completed` / `cancelled` / `pending`).
-- Dates: `coalesce(try_strptime(x, '%Y-%m-%d'), try_strptime(x, '%d/%m/%Y'))::date`.
-- Money: `try_cast(replace(trim(x), '$', '') as decimal(10,2))`.
+- Dates: `CASE WHEN x LIKE '%/%'` → `STRPTIME(x, '%d/%m/%Y')`, else `STRPTIME(x, '%Y-%m-%d')`, cast to DATE.
+- Money: `REPLACE(TRIM(x), '$', '')` then `CAST(... AS DECIMAL(10, 2))`.
+- Casts are **strict** (not `TRY_`): an unseen format fails the build loudly rather than silently becoming NULL.
 - Empty strings become NULL.
 
 ### int_bookings_clean

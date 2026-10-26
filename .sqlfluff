@@ -1,0 +1,43 @@
+[sqlfluff]
+templater = dbt
+dialect = duckdb
+max_line_length = 120
+
+[sqlfluff:templater:dbt]
+project_dir = .
+profiles_dir = .
+
+[sqlfluff:indentation]
+tab_space_size = 4
+
+# Align column aliases (AS ...) within each SELECT clause.
+[sqlfluff:layout:type:alias_expression]
+spacing_before = align
+align_within = select_clause
+align_scope = bracketed
+
+# Uppercase keywords, functions, types and literals; lowercase identifiers.
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.functions]
+extended_capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.literals]
+capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.types]
+extended_capitalisation_policy = upper
+
+[sqlfluff:rules:capitalisation.identifiers]
+extended_capitalisation_policy = lower
+
+# Table aliases must be descriptive: at least 3 characters, always with explicit AS.
+[sqlfluff:rules:aliasing.length]
+min_alias_length = 3
+
+[sqlfluff:rules:aliasing.table]
+aliasing = explicit
+
+[sqlfluff:rules:aliasing.column]
+aliasing = explicit
