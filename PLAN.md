@@ -62,7 +62,7 @@ Apply in this order, and record each derivation in a flag column:
 
 ### property_summary (one row per property)
 - `total_revenue_usd`: sum of `total_booking_value` where status = completed.
-- `avg_length_of_stay_days`: avg(nights) across all statuses (booked length), NULLs excluded.
+- `avg_length_of_stay_days`: avg(nights) across completed bookings, NULLs excluded.
 - `completed_bookings`, `cancelled_bookings`, `pending_bookings`, `total_bookings`.
 
 ## Assumptions (to be repeated in README)
@@ -85,11 +85,11 @@ Apply in this order, and record each derivation in a flag column:
 
 ## Deliverables
 
-- [ ] `requirements.txt` (`dbt-duckdb`), `profiles.yml` in repo, `dbt_project.yml`
-- [ ] Models + tests passing with `dbt build`
-- [ ] `output/bookings_clean.parquet`, `output/property_summary.parquet`
-- [ ] README: how to run, assumptions, AI usage and how outputs were verified
-- [ ] Spot-check: manually verify the summary for one property against the raw file
+- [x] `pyproject.toml` + `uv.lock` (uv), `profiles.yml` in repo, `dbt_project.yml`
+- [x] Models + tests passing with `dbt build`
+- [x] `output/bookings_clean.parquet`, `output/property_summary.parquet`
+- [x] README: how to run, assumptions, AI usage and how outputs were verified
+- [x] Spot-check: summary recalculated independently in Python from the raw file; matches on every property
 
 ## Likely live modifications (be ready)
 

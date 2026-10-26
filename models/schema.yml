@@ -46,4 +46,4 @@ models:
       - name: total_revenue_usd
         description: Sum of booking value for completed bookings only.
       - name: avg_length_of_stay_days
-        description: Average nights across all bookings with a known length of stay.
+        description: Average nights across completed bookings with a known length of stay.

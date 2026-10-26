@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img">
+<style>
+  .t { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0b3c49; }
+  .h { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; fill: #0b3c49; }
+  .m { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #1f2a2e; }
+  .cap { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 1.5px; }
+</style>
+<rect width="1200" height="340" rx="24" fill="#fbf6ee" stroke="#f4ebdc" stroke-width="2"/><text x="161.0" y="64" class="cap" font-size="15" font-weight="400" text-anchor="middle" style="fill:#00695c">RAW</text><text x="459.0" y="64" class="cap" font-size="15" font-weight="400" text-anchor="middle" style="fill:#00695c">STAGING</text><text x="757.0" y="64" class="cap" font-size="15" font-weight="400" text-anchor="middle" style="fill:#00695c">MARTS</text><text x="1041.0" y="64" class="cap" font-size="15" font-weight="400" text-anchor="middle" style="fill:#00695c">OUTPUT</text><line x1="286" y1="200.0" x2="324" y2="200.0" stroke="#c9ad7f" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/></line><path d="M 322 193.0 L 334 200.0 L 322 207.0 Z" fill="#c9ad7f"/><line x1="584" y1="200.0" x2="622" y2="140.0" stroke="#c9ad7f" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/></line><path d="M 620 133.0 L 632 140.0 L 620 147.0 Z" fill="#c9ad7f"/><line x1="882" y1="140.0" x2="906" y2="140.0" stroke="#c9ad7f" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/></line><path d="M 904 133.0 L 916 140.0 L 904 147.0 Z" fill="#c9ad7f"/><line x1="882" y1="260.0" x2="906" y2="260.0" stroke="#c9ad7f" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/></line><path d="M 904 253.0 L 916 260.0 L 904 267.0 Z" fill="#c9ad7f"/><line x1="757.0" y1="172" x2="747.0" y2="228" stroke="#00695c" stroke-width="3" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/></line><path d="M 745.0 221 L 757.0 228 L 745.0 235 Z" fill="#00695c"/>
+  <g>
+    <rect x="36" y="168" width="250" height="64" rx="14" fill="#ffffff" stroke="#e6d5b8" stroke-width="2"/>
+    <text x="161.0" y="196" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#0b3c49">holiday_lettings.csv</text>
+    <text x="161.0" y="218" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#5b6b70">200 rows · read as text</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="334" y="168" width="250" height="64" rx="14" fill="#f4ebdc" stroke="#e6d5b8" stroke-width="2"/>
+    <text x="459.0" y="196" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#0b3c49">stg_bookings</text>
+    <text x="459.0" y="218" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#5b6b70">view · clean + cast</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.250;1" dur="0.8s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.250;1" dur="0.8s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="632" y="108" width="250" height="64" rx="14" fill="#00897b" stroke="#00897b" stroke-width="2"/>
+    <text x="757.0" y="136" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#ffffff">bookings_clean</text>
+    <text x="757.0" y="158" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#fbf6ee">fill gaps + flag them</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.0s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.400;1" dur="1.0s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="632" y="228" width="250" height="64" rx="14" fill="#00897b" stroke="#00897b" stroke-width="2"/>
+    <text x="757.0" y="256" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#ffffff">property_summary</text>
+    <text x="757.0" y="278" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#fbf6ee">aggregate per property</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.500;1" dur="1.2000000000000002s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.500;1" dur="1.2000000000000002s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="916" y="108" width="250" height="64" rx="14" fill="#ffffff" stroke="#f2b134" stroke-width="2"/>
+    <text x="1041.0" y="136" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#0b3c49">bookings_clean.parquet</text>
+    <text x="1041.0" y="158" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#5b6b70">the clean dataset</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.571;1" dur="1.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.571;1" dur="1.4s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="916" y="228" width="250" height="64" rx="14" fill="#ffffff" stroke="#f2b134" stroke-width="2"/>
+    <text x="1041.0" y="256" class="m" font-size="17" font-weight="600" text-anchor="middle" style="fill:#0b3c49">property_summary.parquet</text>
+    <text x="1041.0" y="278" class="t" font-size="14" font-weight="400" text-anchor="middle" style="fill:#5b6b70">the summary table</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.625;1" dur="1.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.625;1" dur="1.6s" fill="freeze"/>
+  </g>
+</svg>

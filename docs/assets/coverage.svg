@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img">
+<style>
+  .t { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0b3c49; }
+  .h { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; fill: #0b3c49; }
+  .m { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #1f2a2e; }
+  .cap { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 1.5px; }
+</style>
+<rect width="1200" height="300" rx="24" fill="#ffffff" stroke="#f4ebdc" stroke-width="2"/><rect x="270" y="38" width="16" height="16" rx="4" fill="#45b3d6"/><text x="294" y="52" class="t" font-size="15" font-weight="400" text-anchor="start" style="fill:#5b6b70">recorded in raw file</text><rect x="490" y="38" width="16" height="16" rx="4" fill="#00897b"/><text x="514" y="52" class="t" font-size="15" font-weight="400" text-anchor="start" style="fill:#5b6b70">filled (flagged)</text><rect x="670" y="38" width="16" height="16" rx="4" fill="#e2582c"/><text x="694" y="52" class="t" font-size="15" font-weight="400" text-anchor="start" style="fill:#5b6b70">still unknown (left NULL)</text><text x="250" y="118" class="m" font-size="17" font-weight="400" text-anchor="end">check_in_date</text>
+  <g>
+    <rect x="270" y="92" width="583.2" height="38" rx="4" fill="#45b3d6"/>
+    <text x="561.6" y="117" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#0b3c49">133</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="855.2" y="92" width="209.2" height="38" rx="4" fill="#00897b"/>
+    <text x="959.8000000000001" y="117" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">48</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="1066.4" y="92" width="81.6" height="38" rx="4" fill="#e2582c"/>
+    <text x="1107.2" y="117" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">19</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.000;1" dur="0.6s" fill="freeze"/>
+  </g><text x="250" y="184" class="m" font-size="17" font-weight="400" text-anchor="end">daily_rate_usd</text>
+  <g>
+    <rect x="270" y="158" width="728.4" height="38" rx="4" fill="#45b3d6"/>
+    <text x="634.2" y="183" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#0b3c49">166</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="1000.4" y="158" width="99.2" height="38" rx="4" fill="#00897b"/>
+    <text x="1050.0" y="183" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">23</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="1101.6" y="158" width="46.4" height="38" rx="4" fill="#e2582c"/>
+    <text x="1124.8" y="183" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">11</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.333;1" dur="0.8999999999999999s" fill="freeze"/>
+  </g><text x="250" y="250" class="m" font-size="17" font-weight="400" text-anchor="end">total_booking_value</text>
+  <g>
+    <rect x="270" y="224" width="776.8" height="38" rx="4" fill="#45b3d6"/>
+    <text x="658.4" y="249" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#0b3c49">177</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="1048.8" y="224" width="64.0" height="38" rx="4" fill="#00897b"/>
+    <text x="1080.8" y="249" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">15</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="1114.8" y="224" width="33.2" height="38" rx="4" fill="#e2582c"/>
+    <text x="1131.3999999999999" y="249" class="t" font-size="15" font-weight="700" text-anchor="middle" style="fill:#ffffff">8</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.500;1" dur="1.2s" fill="freeze"/>
+  </g>
+</svg>

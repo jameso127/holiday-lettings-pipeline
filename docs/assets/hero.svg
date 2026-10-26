@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img">
+<style>
+  .t { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0b3c49; }
+  .h { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; fill: #0b3c49; }
+  .m { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #1f2a2e; }
+  .cap { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; letter-spacing: 1.5px; }
+</style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3c49"/><stop offset="1" stop-color="#00695c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1140" cy="30" r="130" fill="#00897b" opacity="0.35"/>
+  <circle cx="60" cy="340" r="150" fill="#00897b" opacity="0.25"/>
+  <text x="64" y="92" class="cap" font-size="16" font-weight="400" text-anchor="start" style="fill:#e6d5b8">TAKE-HOME TASK · DATA ENGINEERING</text>
+  <text x="64" y="156" class="h" font-size="54" font-weight="400" text-anchor="start" style="fill:#ffffff">Holiday lettings bookings</text>
+  <text x="64" y="204" class="t" font-size="23" font-weight="400" text-anchor="start" style="fill:#f4ebdc">From messy legacy exports to a clean dataset</text>
+  <text x="64" y="236" class="t" font-size="23" font-weight="400" text-anchor="start" style="fill:#f4ebdc">and a per-property summary, with dbt on DuckDB.</text>
+  <rect x="64" y="262" width="96" height="6" rx="3" fill="#f2b134"/>
+  
+  <g>
+    <rect x="800" y="54" width="340" height="40" rx="20" fill="#fbf6ee" opacity="0.97"/>
+    <text x="820" y="80" class="m" font-size="17" font-weight="400" text-anchor="start" style="fill:#e2582c">' Guest 43 '</text>
+    <text x="980" y="80" class="t" font-size="20" font-weight="700" text-anchor="middle" style="fill:#5b6b70">→</text>
+    <text x="1002" y="80" class="m" font-size="17" font-weight="700" text-anchor="start" style="fill:#00695c">Guest 43</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.400;1" dur="1.0s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.400;1" dur="1.0s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="830" y="114" width="340" height="40" rx="20" fill="#fbf6ee" opacity="0.97"/>
+    <text x="850" y="140" class="m" font-size="17" font-weight="400" text-anchor="start" style="fill:#e2582c">COMPLETED</text>
+    <text x="1010" y="140" class="t" font-size="20" font-weight="700" text-anchor="middle" style="fill:#5b6b70">→</text>
+    <text x="1032" y="140" class="m" font-size="17" font-weight="700" text-anchor="start" style="fill:#00695c">completed</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.600;1" dur="1.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.600;1" dur="1.5s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="800" y="174" width="340" height="40" rx="20" fill="#fbf6ee" opacity="0.97"/>
+    <text x="820" y="200" class="m" font-size="17" font-weight="400" text-anchor="start" style="fill:#e2582c">14/12/2023</text>
+    <text x="980" y="200" class="t" font-size="20" font-weight="700" text-anchor="middle" style="fill:#5b6b70">→</text>
+    <text x="1002" y="200" class="m" font-size="17" font-weight="700" text-anchor="start" style="fill:#00695c">2023-12-14</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.700;1" dur="2.0s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.700;1" dur="2.0s" fill="freeze"/>
+  </g>
+  <g>
+    <rect x="830" y="234" width="340" height="40" rx="20" fill="#fbf6ee" opacity="0.97"/>
+    <text x="850" y="260" class="m" font-size="17" font-weight="400" text-anchor="start" style="fill:#e2582c">$5225.00</text>
+    <text x="1010" y="260" class="t" font-size="20" font-weight="700" text-anchor="middle" style="fill:#5b6b70">→</text>
+    <text x="1032" y="260" class="m" font-size="17" font-weight="700" text-anchor="start" style="fill:#00695c">5225.00</text>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.760;1" dur="2.5s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 0" keyTimes="0;0.760;1" dur="2.5s" fill="freeze"/>
+  </g>
+</svg>
