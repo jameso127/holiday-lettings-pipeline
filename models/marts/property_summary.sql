@@ -1,0 +1,1 @@
+-- Mart: one row per property - revenue (completed only), avg length of stay, booking counts by status.

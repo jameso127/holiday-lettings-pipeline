@@ -1,0 +1,8 @@
+holiday_lettings:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: holiday_lettings.duckdb
+      external_root: output
+      threads: 1

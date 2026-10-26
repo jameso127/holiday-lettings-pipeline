@@ -1,0 +1,201 @@
+booking_id,property_name,guest_name,status,check_in_date,check_out_date,daily_rate_usd,total_booking_value
+ID-1088,Mountain Cabin, Guest 88 ,Pending,,2023-02-25,, 1816 
+ID-1041,Countryside Cottage, Guest 41 ,Cancelled,2023-04-22,2023-05-05,213,2769
+ID-1003,Desert Oasis, Guest 3 ,Completed,14/12/2023,20/12/2023,495,2970
+ID-1163,Beachfront Villa, Guest 163 ,Pending,,2023-10-13,203,2030
+ID-1096,Beachfront Villa, Guest 96 ,Pending,11/05/2023,24/05/2023,, 2665 
+ID-1079,City Loft, Guest 79 ,Pending,,2023-11-02,492,1968
+ID-1190,Desert Oasis, Guest 190 ,Cancelled,,2023-12-25,430,$430.00
+ID-1095,Mountain Cabin, Guest 95 ,Pending,2023-02-05,2023-02-06,145,$145.00
+ID-1063,Countryside Cottage, Guest 63 ,Pending,22/05/2023,27/05/2023,357,
+ID-1053,Desert Oasis, Guest 53 ,Completed,2023-12-22,2023-12-24,212,424
+ID-1067,Countryside Cottage, Guest 67 ,COMPLETED,,2023-05-27,462,2772
+ID-1000,Mountain Cabin, Guest 0 ,COMPLETED,17/11/2023,28/11/2023,475,$5225.00
+ID-1024,Mountain Cabin, Guest 24 ,COMPLETED,01/04/2023,05/04/2023,, 1736 
+ID-1043,Desert Oasis, Guest 43 ,cancelled,,2023-03-20,259,3626
+ID-1134,Desert Oasis, Guest 134 ,Completed,2023-08-01,2023-08-03,240,480
+ID-1174,City Loft, Guest 174 ,Pending,06/09/2023,17/09/2023,91,1001
+ID-1030,Desert Oasis, Guest 30 ,cancelled,09/08/2023,14/08/2023,282,$1410.00
+ID-1149,Desert Oasis, Guest 149 ,cancelled,2023-04-20,2023-04-28,268,2144
+ID-1168,Mountain Cabin, Guest 168 ,cancelled,17/11/2023,20/11/2023,245,
+ID-1045,Mountain Cabin, Guest 45 ,Pending,15/01/2023,17/01/2023,401,$802.00
+ID-1056,Desert Oasis, Guest 56 ,COMPLETED,2023-02-13,2023-02-17,70,
+ID-1109,Desert Oasis, Guest 109 ,Pending,,2023-11-05,177,1062
+ID-1036,City Loft, Guest 36 ,Pending,31/03/2023,03/04/2023,, 1005 
+ID-1064,Countryside Cottage, Guest 64 ,cancelled,,2023-03-15,, 440 
+ID-1185,Mountain Cabin, Guest 185 ,Completed,2023-04-13,2023-04-25,104,$1248.00
+ID-1113,Countryside Cottage, Guest 113 ,cancelled,2023-01-19,2023-01-20,184,184
+ID-1044,Countryside Cottage, Guest 44 ,Pending,2023-07-28,2023-08-08,, 3190 
+ID-1073,Beachfront Villa, Guest 73 ,cancelled,,2023-03-27,66,660
+ID-1089,City Loft, Guest 89 ,COMPLETED,2023-10-29,2023-11-08,51,510
+ID-1093,Mountain Cabin, Guest 93 ,cancelled,26/04/2023,10/05/2023,241,3374
+ID-1156,Beachfront Villa, Guest 156 ,COMPLETED,17/10/2023,21/10/2023,, 864 
+ID-1058,Mountain Cabin, Guest 58 ,Pending,,2023-01-11,244,732
+ID-1080,City Loft, Guest 80 ,cancelled,2023-10-11,2023-10-24,439,$5707.00
+ID-1098,Beachfront Villa, Guest 98 ,Completed,2023-08-15,2023-08-17,176,
+ID-1105,City Loft, Guest 105 ,COMPLETED,23/06/2023,03/07/2023,52,$520.00
+ID-1170,Beachfront Villa, Guest 170 ,Cancelled,2023-08-12,2023-08-20,441,$3528.00
+ID-1172,Desert Oasis, Guest 172 ,Pending,,2023-07-28,, 4312 
+ID-1020,Beachfront Villa, Guest 20 ,COMPLETED,2023-10-15,2023-10-25,65,$650.00
+ID-1104,Mountain Cabin, Guest 104 ,COMPLETED,2023-10-30,2023-11-06,, 1505 
+ID-1148,Mountain Cabin, Guest 148 ,cancelled,,2023-07-24,, 792 
+ID-1016,Beachfront Villa, Guest 16 ,COMPLETED,,2023-11-10,, 1120 
+ID-1110,Desert Oasis, Guest 110 ,cancelled,2023-06-30,2023-07-11,221,$2431.00
+ID-1090,Beachfront Villa, Guest 90 ,COMPLETED,15/12/2023,23/12/2023,211,$1688.00
+ID-1182,City Loft, Guest 182 ,Completed,2023-04-16,2023-04-20,106,
+ID-1039,Desert Oasis, Guest 39 ,Cancelled,21/12/2023,24/12/2023,420,1260
+ID-1154,Mountain Cabin, Guest 154 ,Completed,,2023-10-25,489,
+ID-1171,Countryside Cottage, Guest 171 ,Pending,24/12/2023,27/12/2023,474,1422
+ID-1164,Desert Oasis, Guest 164 ,Pending,2023-11-15,2023-11-17,, 550 
+ID-1069,City Loft, Guest 69 ,Completed,09/02/2023,22/02/2023,93,1209
+ID-1029,Beachfront Villa, Guest 29 ,COMPLETED,2023-05-09,2023-05-17,173,1384
+ID-1136,Desert Oasis, Guest 136 ,COMPLETED,,2023-05-22,, 3912 
+ID-1057,Mountain Cabin, Guest 57 ,Pending,19/05/2023,29/05/2023,444,4440
+ID-1102,Mountain Cabin, Guest 102 ,Cancelled,02/09/2023,07/09/2023,413,2065
+ID-1111,Beachfront Villa, Guest 111 ,Completed,14/05/2023,27/05/2023,126,1638
+ID-1094,Desert Oasis, Guest 94 ,cancelled,,2023-07-05,329,3948
+ID-1132,Beachfront Villa, Guest 132 ,Cancelled,22/02/2023,05/03/2023,, 3146 
+ID-1150,Countryside Cottage, Guest 150 ,cancelled,22/08/2023,28/08/2023,438,$2628.00
+ID-1026,Countryside Cottage, Guest 26 ,Completed,2023-09-30,2023-10-09,392,3528
+ID-1166,Mountain Cabin, Guest 166 ,COMPLETED,,2023-03-23,363,1815
+ID-1092,Countryside Cottage, Guest 92 ,Pending,2023-05-19,2023-05-24,, 1330 
+ID-1106,City Loft, Guest 106 ,Cancelled,,2023-08-12,343,4802
+ID-1192,Countryside Cottage, Guest 192 ,COMPLETED,25/07/2023,28/07/2023,, 798 
+ID-1081,Beachfront Villa, Guest 81 ,Cancelled,09/05/2023,16/05/2023,268,1876
+ID-1072,Desert Oasis, Guest 72 ,Completed,20/09/2023,21/09/2023,, 97 
+ID-1143,Beachfront Villa, Guest 143 ,Pending,2023-08-26,2023-09-04,467,4203
+ID-1032,Beachfront Villa, Guest 32 ,Pending,2023-11-02,2023-11-11,, 4392 
+ID-1035,Beachfront Villa, Guest 35 ,Pending,2023-06-07,2023-06-21,337,$4718.00
+ID-1052,Beachfront Villa, Guest 52 ,COMPLETED,,2023-09-27,, 4464 
+ID-1178,Beachfront Villa, Guest 178 ,Pending,,2023-05-14,327,2616
+ID-1068,Beachfront Villa, Guest 68 ,Pending,2023-06-06,2023-06-11,, 700 
+ID-1116,Beachfront Villa, Guest 116 ,Cancelled,2023-06-07,2023-06-19,, 5580 
+ID-1002,Countryside Cottage, Guest 2 ,cancelled,2023-03-08,2023-03-17,100,900
+ID-1086,City Loft, Guest 86 ,Pending,2023-03-14,2023-03-20,90,540
+ID-1165,Mountain Cabin, Guest 165 ,Cancelled,16/04/2023,28/04/2023,421,$5052.00
+ID-1169,Desert Oasis, Guest 169 ,cancelled,,2023-08-16,177,2124
+ID-1153,Desert Oasis, Guest 153 ,Pending,07/03/2023,16/03/2023,201,1809
+ID-1184,City Loft, Guest 184 ,Cancelled,,2023-04-23,, 330 
+ID-1085,Beachfront Villa, Guest 85 ,Cancelled,,2023-06-10,414,$3312.00
+ID-1152,Beachfront Villa, Guest 152 ,cancelled,2023-05-23,2023-05-24,, 291 
+ID-1062,Beachfront Villa, Guest 62 ,Completed,2023-01-01,2023-01-06,296,1480
+ID-1161,Desert Oasis, Guest 161 ,cancelled,2023-12-02,2023-12-08,440,
+ID-1001,City Loft, Guest 1 ,cancelled,,2023-03-12,89,1157
+ID-1181,Mountain Cabin, Guest 181 ,Completed,,2023-11-29,220,440
+ID-1146,Beachfront Villa, Guest 146 ,Cancelled,2023-07-06,2023-07-08,240,480
+ID-1059,Desert Oasis, Guest 59 ,Completed,2023-02-12,2023-02-17,238,1190
+ID-1034,Beachfront Villa, Guest 34 ,cancelled,,2023-03-17,219,2190
+ID-1054,City Loft, Guest 54 ,Pending,06/02/2023,07/02/2023,135,135
+ID-1195,City Loft, Guest 195 ,COMPLETED,09/08/2023,14/08/2023,357,$1785.00
+ID-1176,Beachfront Villa, Guest 176 ,Completed,2023-01-25,2023-01-29,, 1548 
+ID-1141,Beachfront Villa, Guest 141 ,COMPLETED,10/07/2023,11/07/2023,188,188
+ID-1019,Countryside Cottage, Guest 19 ,COMPLETED,,2023-07-22,225,1800
+ID-1158,City Loft, Guest 158 ,Completed,2023-07-27,2023-08-07,248,2728
+ID-1050,Countryside Cottage, Guest 50 ,Pending,2023-10-24,2023-10-28,150,$600.00
+ID-1108,City Loft, Guest 108 ,Completed,20/03/2023,27/03/2023,, 2394 
+ID-1091,Countryside Cottage, Guest 91 ,Completed,,2023-09-22,481,
+ID-1099,City Loft, Guest 99 ,cancelled,20/10/2023,01/11/2023,138,1656
+ID-1133,City Loft, Guest 133 ,cancelled,,2023-11-24,165,
+ID-1128,Desert Oasis, Guest 128 ,COMPLETED,2023-06-08,2023-06-17,, 1863 
+ID-1125,Mountain Cabin, Guest 125 ,Completed,2023-11-24,2023-12-07,166,$2158.00
+ID-1022,City Loft, Guest 22 ,Pending,,2023-06-01,452,3164
+ID-1145,City Loft, Guest 145 ,Completed,,2023-08-21,150,$300.00
+ID-1197,City Loft, Guest 197 ,Completed,2023-03-10,2023-03-14,174,696
+ID-1155,Mountain Cabin, Guest 155 ,Completed,2023-11-08,2023-11-10,347,$694.00
+ID-1101,Beachfront Villa, Guest 101 ,COMPLETED,2023-03-25,2023-03-31,328,1968
+ID-1051,Desert Oasis, Guest 51 ,COMPLETED,27/04/2023,04/05/2023,362,2534
+ID-1028,Beachfront Villa, Guest 28 ,Pending,,2023-01-27,328,
+ID-1193,Beachfront Villa, Guest 193 ,Cancelled,,2023-08-17,335,4690
+ID-1157,Countryside Cottage, Guest 157 ,Pending,,2023-12-09,311,1244
+ID-1127,Countryside Cottage, Guest 127 ,Cancelled,,2023-04-05,480,2400
+ID-1040,Countryside Cottage, Guest 40 ,cancelled,,2023-04-10,285,$570.00
+ID-1009,Mountain Cabin, Guest 9 ,Cancelled,03/08/2023,17/08/2023,210,2940
+ID-1075,City Loft, Guest 75 ,Completed,24/03/2023,31/03/2023,377,$2639.00
+ID-1119,Desert Oasis, Guest 119 ,cancelled,2023-06-07,2023-06-14,385,
+ID-1087,Mountain Cabin, Guest 87 ,Pending,17/02/2023,19/02/2023,382,764
+ID-1060,Mountain Cabin, Guest 60 ,Completed,23/12/2023,31/12/2023,484,$3872.00
+ID-1144,Countryside Cottage, Guest 144 ,Completed,05/11/2023,11/11/2023,, 426 
+ID-1126,City Loft, Guest 126 ,Cancelled,14/10/2023,18/10/2023,372,
+ID-1137,Desert Oasis, Guest 137 ,Cancelled,2023-09-20,2023-09-26,347,2082
+ID-1103,Beachfront Villa, Guest 103 ,cancelled,,2023-04-12,131,786
+ID-1117,Countryside Cottage, Guest 117 ,Pending,14/01/2023,28/01/2023,97,1358
+ID-1074,Beachfront Villa, Guest 74 ,COMPLETED,2023-09-15,2023-09-17,442,884
+ID-1038,Desert Oasis, Guest 38 ,Pending,2023-06-25,2023-06-30,224,1120
+ID-1129,Desert Oasis, Guest 129 ,cancelled,26/06/2023,08/07/2023,263,3156
+ID-1012,Desert Oasis, Guest 12 ,Completed,08/09/2023,14/09/2023,, 1824 
+ID-1023,City Loft, Guest 23 ,cancelled,2023-10-15,2023-10-19,112,448
+ID-1076,City Loft, Guest 76 ,Cancelled,,2023-04-10,, 2730 
+ID-1033,City Loft, Guest 33 ,Pending,02/10/2023,11/10/2023,157,1413
+ID-1162,Countryside Cottage, Guest 162 ,cancelled,02/06/2023,14/06/2023,106,1272
+ID-1021,Beachfront Villa, Guest 21 ,Completed,25/11/2023,07/12/2023,359,
+ID-1189,Countryside Cottage, Guest 189 ,cancelled,30/07/2023,08/08/2023,388,
+ID-1123,Mountain Cabin, Guest 123 ,cancelled,18/09/2023,27/09/2023,342,3078
+ID-1114,Desert Oasis, Guest 114 ,COMPLETED,18/09/2023,23/09/2023,291,1455
+ID-1010,Mountain Cabin, Guest 10 ,Pending,,2023-01-26,72,$72.00
+ID-1061,Desert Oasis, Guest 61 ,Completed,,2023-07-22,196,196
+ID-1186,Mountain Cabin, Guest 186 ,Cancelled,23/09/2023,01/10/2023,463,3704
+ID-1160,City Loft, Guest 160 ,Completed,,2023-08-10,496,$2480.00
+ID-1175,Countryside Cottage, Guest 175 ,cancelled,,2023-05-04,176,$1408.00
+ID-1107,Desert Oasis, Guest 107 ,Completed,2023-12-01,2023-12-08,164,1148
+ID-1047,Mountain Cabin, Guest 47 ,cancelled,2023-08-19,2023-08-27,466,3728
+ID-1159,Desert Oasis, Guest 159 ,cancelled,27/01/2023,07/02/2023,101,1111
+ID-1167,Mountain Cabin, Guest 167 ,COMPLETED,2023-12-27,2024-01-01,235,1175
+ID-1115,Beachfront Villa, Guest 115 ,COMPLETED,,2023-10-01,398,$1990.00
+ID-1070,Countryside Cottage, Guest 70 ,Cancelled,,2023-01-21,302,$3020.00
+ID-1191,City Loft, Guest 191 ,cancelled,2023-01-02,2023-01-13,123,1353
+ID-1173,Desert Oasis, Guest 173 ,COMPLETED,2023-08-26,2023-09-09,152,2128
+ID-1138,City Loft, Guest 138 ,cancelled,11/02/2023,12/02/2023,375,375
+ID-1135,Mountain Cabin, Guest 135 ,Cancelled,07/01/2023,13/01/2023,339,$2034.00
+ID-1011,Desert Oasis, Guest 11 ,Cancelled,2023-10-07,2023-10-20,256,3328
+ID-1082,Mountain Cabin, Guest 82 ,cancelled,,2023-04-29,121,1573
+ID-1124,City Loft, Guest 124 ,cancelled,,2023-07-29,, 4491 
+ID-1013,Mountain Cabin, Guest 13 ,Cancelled,,2023-01-28,453,4077
+ID-1027,Desert Oasis, Guest 27 ,cancelled,20/06/2023,26/06/2023,341,2046
+ID-1180,City Loft, Guest 180 ,Pending,17/12/2023,27/12/2023,457,$4570.00
+ID-1005,City Loft, Guest 5 ,cancelled,2023-09-28,2023-10-06,174,$1392.00
+ID-1071,Beachfront Villa, Guest 71 ,Completed,2023-06-15,2023-06-23,282,2256
+ID-1198,Countryside Cottage, Guest 198 ,cancelled,02/08/2023,16/08/2023,377,5278
+ID-1018,Mountain Cabin, Guest 18 ,COMPLETED,28/11/2023,02/12/2023,115,460
+ID-1007,City Loft, Guest 7 ,Completed,,2023-08-04,426,
+ID-1140,City Loft, Guest 140 ,Pending,2023-10-17,2023-10-18,193,$193.00
+ID-1142,City Loft, Guest 142 ,Cancelled,,2023-03-13,494,4940
+ID-1008,City Loft, Guest 8 ,Pending,2023-05-25,2023-05-27,, 308 
+ID-1049,Mountain Cabin, Guest 49 ,cancelled,,2023-09-07,423,
+ID-1048,Desert Oasis, Guest 48 ,COMPLETED,02/12/2023,09/12/2023,, 3367 
+ID-1066,Mountain Cabin, Guest 66 ,Completed,15/03/2023,24/03/2023,284,2556
+ID-1006,City Loft, Guest 6 ,Cancelled,09/02/2023,12/02/2023,319,957
+ID-1177,Beachfront Villa, Guest 177 ,Completed,02/10/2023,07/10/2023,175,875
+ID-1078,Beachfront Villa, Guest 78 ,Cancelled,18/08/2023,23/08/2023,215,1075
+ID-1131,Desert Oasis, Guest 131 ,Cancelled,2023-10-07,2023-10-08,296,296
+ID-1187,Beachfront Villa, Guest 187 ,Completed,,2023-11-05,99,198
+ID-1130,Countryside Cottage, Guest 130 ,COMPLETED,,2023-12-17,384,$1152.00
+ID-1097,Countryside Cottage, Guest 97 ,Pending,,2023-12-18,141,1974
+ID-1199,Countryside Cottage, Guest 199 ,Pending,,2023-07-03,84,252
+ID-1118,Mountain Cabin, Guest 118 ,Pending,,2023-11-28,274,2192
+ID-1194,City Loft, Guest 194 ,Completed,2023-02-13,2023-02-23,245,2450
+ID-1055,Mountain Cabin, Guest 55 ,Completed,,2023-08-26,406,$1218.00
+ID-1017,Beachfront Villa, Guest 17 ,Cancelled,2023-03-27,2023-04-01,280,1400
+ID-1120,Beachfront Villa, Guest 120 ,Completed,08/02/2023,09/02/2023,398,$398.00
+ID-1122,Beachfront Villa, Guest 122 ,COMPLETED,2023-03-12,2023-03-18,393,2358
+ID-1100,Beachfront Villa, Guest 100 ,COMPLETED,,2023-09-10,294,$588.00
+ID-1046,Desert Oasis, Guest 46 ,COMPLETED,,2023-11-24,407,5698
+ID-1183,Beachfront Villa, Guest 183 ,Completed,27/02/2023,03/03/2023,174,696
+ID-1077,Desert Oasis, Guest 77 ,Completed,2023-05-25,2023-05-30,249,
+ID-1031,City Loft, Guest 31 ,COMPLETED,,2023-09-06,51,102
+ID-1025,City Loft, Guest 25 ,COMPLETED,,2023-05-30,182,$1638.00
+ID-1065,Beachfront Villa, Guest 65 ,cancelled,2023-01-20,2023-01-30,178,$1780.00
+ID-1014,Desert Oasis, Guest 14 ,COMPLETED,2023-07-03,2023-07-04,303,
+ID-1084,Mountain Cabin, Guest 84 ,cancelled,21/02/2023,04/03/2023,77,
+ID-1179,Countryside Cottage, Guest 179 ,cancelled,2023-06-24,2023-06-25,162,162
+ID-1196,Beachfront Villa, Guest 196 ,COMPLETED,,2023-12-27,118,
+ID-1042,Beachfront Villa, Guest 42 ,Completed,05/09/2023,17/09/2023,113,
+ID-1083,Beachfront Villa, Guest 83 ,cancelled,2023-03-12,2023-03-18,401,2406
+ID-1151,Desert Oasis, Guest 151 ,Completed,,2023-03-24,440,1320
+ID-1188,City Loft, Guest 188 ,cancelled,2023-08-10,2023-08-12,, 536 
+ID-1139,Desert Oasis, Guest 139 ,cancelled,,2023-06-23,108,540
+ID-1015,Countryside Cottage, Guest 15 ,Completed,11/05/2023,22/05/2023,134,$1474.00
+ID-1037,Beachfront Villa, Guest 37 ,cancelled,,2023-10-15,338,2028
+ID-1121,City Loft, Guest 121 ,Pending,,2023-01-16,408,408
+ID-1147,City Loft, Guest 147 ,COMPLETED,13/01/2023,17/01/2023,224,
+ID-1112,City Loft, Guest 112 ,Pending,,2023-03-06,88,
+ID-1004,Mountain Cabin, Guest 4 ,cancelled,,2023-08-02,, 1460 

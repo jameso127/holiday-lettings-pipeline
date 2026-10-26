@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_bookings
+    description: Trimmed, typed and standardised bookings. No business logic.
+    columns:
+      - name: booking_id
+        data_tests: [unique, not_null]
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [completed, cancelled, pending]
+
+  - name: int_bookings_clean
+    description: Bookings with rate, total and check-in imputed where derivable (total = rate x nights). Imputed values are flagged.
+    columns:
+      - name: booking_id
+        data_tests: [unique, not_null]
+
+  - name: bookings_clean
+    description: Final clean dataset. Exported to output/bookings_clean.{parquet,csv}.
+    columns:
+      - name: booking_id
+        data_tests: [unique, not_null]
+      - name: property_name
+        data_tests: [not_null]
+      - name: check_out_date
+        data_tests: [not_null]
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [completed, cancelled, pending]
+
+  - name: property_summary
+    description: One row per property. Revenue counts completed bookings only. Exported to output/property_summary.{parquet,csv}.
+    columns:
+      - name: property_name
+        data_tests: [unique, not_null]
